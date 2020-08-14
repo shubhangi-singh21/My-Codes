@@ -6,9 +6,11 @@ using namespace std;
     int mid;
     while (l < h)
     { mid = ( l + h )/2;
+    
       if (key == A [mid])
       {
-        return mid;
+        cout << "Element is present at index " << A [mid];
+        break;
       }
        else if (key < A [mid])
        {
@@ -30,13 +32,8 @@ using namespace std;
     int n = sizeof(A) / sizeof(A[0]); 
     int l = 1;
     int h = n;
-    int mid = ( l + h )/2;
     int result = BinSearch(A, n, l, h, key); 
     (result == -1) ? cout << "Element is not present in array"
                    : cout << "Element is present at index " << result; 
-    if (result == mid)
-    {
-        cout << "Element is present at index " << result;
-    }
     return 0; 
    }
