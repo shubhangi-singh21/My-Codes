@@ -1,3 +1,5 @@
+//Pre-requisite:list must be sorted 
+
 #include <iostream>
 using namespace std;
 
