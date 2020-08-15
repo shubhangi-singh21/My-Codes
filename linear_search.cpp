@@ -1,3 +1,5 @@
+//Pre-requisite:list must not contain repeated elements.
+
 #include <iostream>
 using namespace std;
 
