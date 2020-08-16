@@ -1,3 +1,5 @@
+//worst case time complexity: array is in decending order- log(n^2)
+
 #include <iostream>
 using namespace std;
 
