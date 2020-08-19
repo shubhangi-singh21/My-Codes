@@ -1,7 +1,6 @@
 //worst $ average case time complexity- O(n^2)
 //best case time complexity- O(n)
 
-*******************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -18,16 +17,16 @@ void display ( int A [], int n )
 void InsSort ( int A [], int n )
 {
   int i, j, temp;
-  for ( i = 1; i <= n; i++ )
+  for ( i = 1; i < n; i++ )
   {
    temp = A [ i ];
-   j = i - 1;
-   while ( j > 0 && A [ i ] > temp )
+   j = i;
+   while ( j > 0 && A [ j - 1 ] > temp )
    {
-    A [ j + 1 ] = A [ j ];
+    A [ j  ] = A [ j - 1];
     j--;
    }
-   A [ j + 1 ] = temp;
+   A [ j ] = temp;
   }
 }
 
