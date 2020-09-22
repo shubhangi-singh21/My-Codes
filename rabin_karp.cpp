@@ -1,3 +1,6 @@
+//time complexity: best case: O(N+M) ->eg below,  worst case: O(NM) ->eg: text=AAAAA, pattern=AA
+
+
 #include <bits/stdc++.h> 
 using namespace std; 
   
