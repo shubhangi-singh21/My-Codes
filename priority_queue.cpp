@@ -1,3 +1,16 @@
+/* EXTRA DESCRIPTION
+Begin
+   class Priority_Queue has following functions:
+   function insert() to insert items at priority queue with their priorities:
+      1) If queue is empty insert data from the left end of the queue.
+      2) If queue is having some nodes then insert the new node at the end of those nodes having priority
+         same with the new node and also before all the nodes having priority lesser than the
+         current priority of the new node.
+      function del() to delete items from queue.
+   If queue is completely empty, print underflow otherwise delete the front element and update front.
+End */
+
+
 #include <iostream>
 #include <cstdio>
 #include <cstring>
