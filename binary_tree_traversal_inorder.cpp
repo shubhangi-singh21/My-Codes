@@ -16,6 +16,6 @@ void Inorder( struct node *root)
 void main()
 {
   struct node *root;
-  printf( "Preorder is:");
-  Preorder(root);
+  printf( "Inorder is:");
+  Inorder(root);
 }
