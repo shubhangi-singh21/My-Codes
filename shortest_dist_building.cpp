@@ -3,8 +3,8 @@ class Solution {
     private int[] colDir = {0, 0, 1, -1};
     
     public int shortestDistance(int[][] grid) {
-        if (grid == null || grid.length == 0) return -1;
-        int rows = grid.length, cols = grid[0].length;
+        if (grid == null || sizeof(grid) == 0) return -1;
+        int rows = sizeof(grid), cols = sizeof(grid[0]);
         int[][] canReach = new int[rows][cols];
         int[][] dist = new int[rows][cols];
         
@@ -13,7 +13,8 @@ class Solution {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 1) {
                     totalBuildings++;
-                    if (!bfs(grid, i, j, dist, canReach)) return -1;
+                    if (!bfs(grid, i, j, dist, canReach)) 
+                        return -1;
                 }
             }
         }
@@ -32,11 +33,11 @@ class Solution {
     }
     
     private boolean bfs(int[][] grid, int row, int col, int[][] dist, int[][] canReach) {
-        int rows = grid.length, cols = grid[0].length;
+        int rows = sizeof(grid), cols = sizeof(grid[0]);
         boolean[][] visited = new boolean[rows][cols];
         
         Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{row, col});
+        q.push(new int[]{row, col});
         visited[row][col] = true;
         
         int d = 0;
@@ -44,7 +45,7 @@ class Solution {
             int size = q.size();
             d++;
             for (int i = 0; i < size; i++) {
-                int[] cur = q.poll();
+                int[] cur = q.pop();
                 int r = cur[0];
                 int c = cur[1];
                 for (int k = 0; k < 4; k++) {
@@ -54,7 +55,7 @@ class Solution {
                     if (grid[rr][cc] == 0) {
                         dist[rr][cc] += d;
                         canReach[rr][cc]++;
-                        q.offer(new int[]{rr, cc});                        
+                        q.push(new int[]{rr, cc});                        
                     }
                     visited[rr][cc] = true;
                 }
@@ -73,8 +74,8 @@ class Solution {
     }
     
     private boolean isValid(int[][] grid, int rr, int cc, boolean[][] visited) {
-        if (rr > grid.length - 1 ||
-           rr < 0 || cc < 0 || cc > grid[0].length - 1) return false;
+        if (rr > sizeof(grid) - 1 ||
+           rr < 0 || cc < 0 || cc > sizeof(grid[0]) - 1) return false;
         if (visited[rr][cc]) return false;
         if(grid[rr][cc] == 2) return false;
         
