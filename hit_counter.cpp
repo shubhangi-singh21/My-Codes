@@ -1,3 +1,5 @@
+//Design a hit counter which counts the number of hits received in the past 5 minutes(300secs).
+
 /* HitCounter counter = new HitCounter();
 
 // hit at timestamp 1.
@@ -21,6 +23,8 @@ counter.getHits(300);
 // get hits at timestamp 301, should return 3.
 counter.getHits(301); */
 
+// Time Complexity : O(300) == O(1)
+
 
 vector<int> times, hits; 
   
@@ -28,7 +32,7 @@ times.resize(300);
 hits.resize(300); 
   
 /** Record a hit. 
-   @param timestamp - The current timestamp 
+   timestamp - The current timestamp 
    (in seconds granularity). */
 void hit(int timestamp) 
 { 
@@ -45,7 +49,7 @@ void hit(int timestamp)
 // Time Complexity : O(1) 
   
 /** Return the number of hits in the past 5 minutes. 
-    @param timestamp - The current timestamp (in  
+    timestamp - The current timestamp (in  
     seconds granularity). */
 int getHits(int timestamp) 
 { 
@@ -57,4 +61,4 @@ int getHits(int timestamp)
     } 
     return res; 
 } 
-// Time Complexity : O(300) == O(1)
+
