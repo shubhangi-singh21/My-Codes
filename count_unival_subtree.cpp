@@ -1,4 +1,5 @@
-//runs in O(n) time complexity
+//Given a binary tree, write a program to count the number of Single Valued Subtrees/ Unival subtree. A Single Valued Subtree is one in which all the nodes have same value. 
+//Runs in O(n) time complexity
 
 
 #include<bits/stdc++.h>
