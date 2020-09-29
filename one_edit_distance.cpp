@@ -6,9 +6,9 @@ using namespace std;
 bool isEditDistanceOne(string s1, string s2) 
 { 
     // Find lengths of given strings 
-    int m = s1.length(), n = s2.length(); 
+    int m = strlen(s1), n = strlen(s2); 
   
-    // If difference between lengths is more than 
+    // case 1: If difference between lengths is more than 
     // 1, then strings can't be at one distance 
     if (abs(m - n) > 1) 
         return false; 
@@ -18,20 +18,20 @@ bool isEditDistanceOne(string s1, string s2)
     int i = 0, j = 0; 
     while (i < m && j < n) 
     { 
-        // If current characters don't match 
+        // case 2: If current characters don't match 
         if (s1[i] != s2[j]) 
         { 
             if (count == 1) 
                 return false; 
   
-            // If length of one string is 
+            // case 3: If length of one string is 
             // more, then only possible edit 
             // is to remove a character 
             if (m > n) 
                 i++; 
             else if (m< n) 
                 j++; 
-            else //Iflengths of both strings is same 
+            else //If lengths of both strings are same 
             { 
                 i++; 
                 j++; 
