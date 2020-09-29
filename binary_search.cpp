@@ -1,4 +1,5 @@
 //Pre-requisite:list must be sorted 
+//Time complexity: O(logn)
 
 #include <iostream>
 using namespace std;
