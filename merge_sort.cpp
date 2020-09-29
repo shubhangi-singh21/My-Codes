@@ -1,3 +1,6 @@
+//Time complexity: O(NlogN), N: no of elements to be sorted
+
+
 #include<iostream>
 using namespace std;
 void swapping(int &a, int &b) {     //swap the content of a and b
