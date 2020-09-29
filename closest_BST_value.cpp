@@ -1,4 +1,5 @@
 //Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target.
+//Time complexity: O(h), h:height of tree
 
 
 struct Tree
@@ -29,7 +30,7 @@ int closestValue(struct Tree *temp, int target, int min_diff, int min_diff_key)
 	if(min_diff > abs(temp->data-target)
 	{
 		min_diff= abs(temp->data-target);
-		min_diff_key=ptr->data;
+		min_diff_key=temp->data;
 	}
 	
 	//if target<temp->data move to left subTree, else move to rightSubtree
@@ -50,4 +51,3 @@ int minDiff( Tree *root, int target)//wrapper function to keep things neat
 	return min_diff_key;
 }
 
-Time complexity: O(h), h:height of tree
