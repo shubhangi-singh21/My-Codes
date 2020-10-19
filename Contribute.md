@@ -1,10 +1,17 @@
 # Contribution guidelines
 
-* Make sure you create a different branch for all your pull requsts.
+* Make sure you work on appropriate branch for all your pull requsts. The branches are named as follows:
 
-* Scripts to be added in there respective folder. If you wish to add a new heading, ping in the issue comment section first.
+1. competive-programming
 
-* Please create a valid pull request by following all contribution guidelines mentioned by [Hacktoberfest](https://hacktoberfest.digitalocean.com/details)
+2. data-structures
+
+3. SDE-interview-prep
+
+
+* Resources to be added under respective headings. If you wish to add a new heading, ping the same in the issues comment section first.
+
+* Please create a valid pull request by following all contribution guidelines mentioned by [Hacktoberfest](https://hacktoberfest.digitalocean.com/details).
 
 * Please don’t spam the repository. Make sure you make unique contributions to avoid redundancy. 
 
@@ -33,6 +40,7 @@ For example:
 
 Since you want to change the files inside, first let's move to the folder correctly. Use the following command on terminal:  
 `cd My-Codes`
+
 `vi README.md`
 
 
@@ -42,7 +50,7 @@ Since now you're about to make your personal changes to the project, it's always
 
 `git checkout -b <branch_name>`  
 For example:  
-`git checkout -b new_branch`
+`git checkout -b competitive programming`
 
 
 #### 5. Commit all your changes ✅
@@ -52,7 +60,7 @@ It's finally that time when you commit your changes and leave a beautiful commit
 `git add .`  
 `git commit -m "<Message>"`  
 For example:  
-`git commit -m "Added a script"`
+`git commit -m "Added a data structure resource"`
 
 Finally, push your changes to Github:  
 To do so run the following command:
