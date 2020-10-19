@@ -1,12 +1,12 @@
 # Contribution guidelines
 
-* Make sure you work on appropriate branch for all your pull requsts. The branches are named as follows:
+* Make sure you work on the correct branch for all your pull requests. The branches are named as follows:
 
-1. competive-programming
+  1. competitive-programming
 
-2. data-structures
+  2. data-structures
 
-3. SDE-interview-prep
+  3. SDE-interview-prep
 
 
 * Resources to be added under respective headings. If you wish to add a new heading, ping the same in the issues comment section first.
@@ -44,13 +44,12 @@ Since you want to change the files inside, first let's move to the folder correc
 `vi README.md`
 
 
-#### 4. Make a new branch ↪
+#### 4. Move to respective branch ↪
 
-Since now you're about to make your personal changes to the project, it's always a better idea to make a new branch. Run the following command:
+Since now you're about to make your personal changes to the project, it's always a better idea to make it in the correct branch. Run the following command:
 
-`git checkout -b <branch_name>`  
-For example:  
-`git checkout -b competitive programming`
+For example, if you wish to add a competitive programming resource, run the following command to move to the correct branch:  
+`git checkout competitive-programming`
 
 
 #### 5. Commit all your changes ✅
@@ -67,7 +66,7 @@ To do so run the following command:
 
 `git push origin <your-branch-name>`  
 For example:  
-`git push origin branch_name`
+`git push origin competitive-programming`
 
 
 #### 6. Hit us a pull request 🔥
