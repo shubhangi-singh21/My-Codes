@@ -26,6 +26,8 @@ ____
 
 1️⃣ [Clement Mihailescu](https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g "Clement Mihailescu")
 
+2️⃣ [CS Dojo](https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A "CS Dojo")
+
 ____
 ### 🔗 Contribute
 
