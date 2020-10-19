@@ -1,4 +1,4 @@
-# RESOURCE GUIDE 📃
+﻿# RESOURCE GUIDE 📃
 
 This file contains a pool of resources ranging from competitive programming, data structures, software engineering interview preparation, and a lot more.
 
@@ -14,6 +14,9 @@ This file contains a pool of resources ranging from competitive programming, dat
 3️⃣ [Codechef](https://www.codechef.com/ "Codechef")
 
 4️⃣ [Topcoder](https://www.topcoder.com/ "Topcoder")
+
+5️⃣ [ClashofCode](https://www.codingame.com/multiplayer/clashofcode "ClashofCode")
+
 ____
 
 ### ✅ Data Structures
