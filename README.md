@@ -15,7 +15,7 @@ This file contains a pool of resources ranging from competitive programming, dat
 
 4️⃣ [Topcoder](https://www.topcoder.com/ "Topcoder")
 
-5️⃣ [Clash of Code]("https://www.codingame.com/multiplayer/clashofcode")
+5️⃣ [Clash of Code](https://www.codingame.com/multiplayer/clashofcode)
 ____
 
 ### ✅ Data Structures
