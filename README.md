@@ -19,6 +19,8 @@ ____
 
 0️⃣ [GeeksForGeeks](https://www.geeksforgeeks.org/ "GeeksForGeeks") 
 
+1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/index.html "TutorialsPoint")
+
 ____
 ### ✅ SDE Interview Preparation 
 
