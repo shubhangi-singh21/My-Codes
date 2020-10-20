@@ -17,6 +17,8 @@ This file contains a pool of resources ranging from competitive programming, dat
 
 5️⃣ [ClashofCode](https://www.codingame.com/multiplayer/clashofcode "ClashofCode")
 
+6️⃣ [Project Euler](https://projecteuler.net/about "Project Euler")
+
 ____
 
 ### ✅ Data Structures
@@ -34,6 +36,12 @@ ____
 1️⃣ [Clement Mihailescu](https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g "Clement Mihailescu")
 
 2️⃣ [CS Dojo](https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A "CS Dojo")
+
+3️⃣ [Nick White](https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA "Nick White")
+
+4️⃣ [Joma Tech](https://www.youtube.com/channel/UCV0qA-eDDICsRR9rPcnG7tw "Joma Tech")
+
+5️⃣ [TechLead (Patrick Shyu)](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw "TechLead")
 
 ____
 ### 🔗 Contribute
