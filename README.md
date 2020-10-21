@@ -15,9 +15,9 @@ This file contains a pool of resources ranging from competitive programming, dat
 
 4️⃣ [Topcoder](https://www.topcoder.com/ "Topcoder")
 
-5 [Gaurav Kapoor](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/ "Gaurav Kapoor")
+7 [Gaurav Kapoor](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/ "Gaurav Kapoor")
 
-6 [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg/ "Errichto")
+8 [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg/ "Errichto")
 ____
 
 ### ✅ Data Structures
