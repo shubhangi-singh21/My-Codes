@@ -43,6 +43,10 @@ ____
 
 5️⃣ [TechLead (Patrick Shyu)](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw "TechLead")
 
+6️⃣ [Gaurav Kapoor](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/ "Gaurav Kapoor")
+
+7️⃣ [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg/ "Errichto")
+
 ____
 ### 🔗 Contribute
 
