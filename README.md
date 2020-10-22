@@ -19,6 +19,7 @@ This file contains a pool of resources ranging from competitive programming, dat
 
 6️⃣ [Project Euler](https://projecteuler.net/about "Project Euler")
 
+
 ____
 
 ### ✅ Data Structures
@@ -26,7 +27,10 @@ ____
 
 0️⃣ [GeeksForGeeks](https://www.geeksforgeeks.org/ "GeeksForGeeks") 
 
-1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/index.html "TutorialsPoint")
+1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/ "TutorialsPoint")
+
+2️⃣ [Linked List Basics](cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
+
 
 ____
 ### ✅ SDE Interview Preparation 
@@ -46,6 +50,7 @@ ____
 6️⃣ [Gaurav Kapoor](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/ "Gaurav Kapoor")
 
 7️⃣ [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg/ "Errichto")
+
 
 ____
 ### 🔗 Contribute
