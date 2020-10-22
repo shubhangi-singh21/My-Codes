@@ -1,4 +1,4 @@
-# RESOURCE GUIDE 📃
+﻿# RESOURCE GUIDE 📃
 
 This file contains a pool of resources ranging from competitive programming, data structures, software engineering interview preparation, and a lot more.
 
@@ -12,6 +12,12 @@ This file contains a pool of resources ranging from competitive programming, dat
 2️⃣ [Hackerrank](https://www.hackerrank.com/ "HackerRank")
 
 3️⃣ [Codechef](https://www.codechef.com/ "Codechef")
+
+4️⃣ [Topcoder](https://www.topcoder.com/ "Topcoder")
+
+7 [Gaurav Kapoor](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/ "Gaurav Kapoor")
+
+8 [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg/ "Errichto")
 ____
 
 ### ✅ Data Structures
@@ -19,7 +25,9 @@ ____
 
 0️⃣ [GeeksForGeeks](https://www.geeksforgeeks.org/ "GeeksForGeeks") 
 
-1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/index.html "TutorialsPoint")
+1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/ "TutorialsPoint")
+
+2️⃣ [Linked List Basics](cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
 
 ____
 ### ✅ SDE Interview Preparation 
