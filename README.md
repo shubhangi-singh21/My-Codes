@@ -1,4 +1,4 @@
-# RESOURCE GUIDE 📃
+﻿# RESOURCE GUIDE 📃
 
 This file contains a pool of resources ranging from competitive programming, data structures, software engineering interview preparation, and a lot more.
 
@@ -25,7 +25,9 @@ ____
 
 0️⃣ [GeeksForGeeks](https://www.geeksforgeeks.org/ "GeeksForGeeks") 
 
-1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/index.html "TutorialsPoint")
+1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/ "TutorialsPoint")
+
+2️⃣ [Linked List Basics](cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
 
 ____
 ### ✅ SDE Interview Preparation 
