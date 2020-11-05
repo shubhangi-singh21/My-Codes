@@ -11,8 +11,6 @@
 
 * Resources to be added under respective headings. If you wish to add a new heading, ping the same in the issues comment section first.
 
-* Please create a valid pull request by following all contribution guidelines mentioned by [Hacktoberfest](https://hacktoberfest.digitalocean.com/details).
-
 * Please don’t spam the repository. Make sure you make unique contributions to avoid redundancy. 
 
 * Star the repositary ⭐
