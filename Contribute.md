@@ -75,4 +75,4 @@ Now submit the pull request. Leave a custom message if you want.
 ____
 
 
-### Happy Hacking🎉
+### Happy Contributing🎉
