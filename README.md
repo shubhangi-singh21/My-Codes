@@ -1,6 +1,6 @@
 ﻿# RESOURCE GUIDE 📃
 
-This file contains a pool of resources ranging from competitive programming, data structures, software engineering interview preparation, and a lot more.
+This repo contains a pool of resources ranging from competitive programming, data structures, software engineering interview preparation, and a lot more.
 
 ### ✅ Competitive Programming
 
