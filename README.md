@@ -29,7 +29,7 @@ ____
 
 1️⃣ [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/ "TutorialsPoint")
 
-2️⃣ [Linked List Basics](cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
+2️⃣ [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
 
 
 ____
