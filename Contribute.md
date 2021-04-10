@@ -67,7 +67,7 @@ For example:
 `git push origin competitive-programming`
 
 
-#### 6. Hit us a pull request 🔥
+#### 6. Hit a pull request 🔥
 
 If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
 Now submit the pull request. Leave a custom message if you want.
