@@ -31,6 +31,7 @@ ____
 
 2️⃣ [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf "Linked List Basics") (PDF)
 
+![alt text](https://drive.google.com/file/d/1YKcPTTZ9NW36Jr9HqQ8WQxhwqrGijvJn/view?usp=sharing "Time Complexities")
 
 ____
 ### ✅ SDE Interview Preparation 
