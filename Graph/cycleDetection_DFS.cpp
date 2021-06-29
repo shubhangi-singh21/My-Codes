@@ -1,4 +1,6 @@
 //Cycle detection for undirected graph components
+// Time complexity = O(V+E)
+// Space complexity = O(V)
 
 bool checkCycle(int node, int parent, vector <int> &vis, vector <int> adj[])
 {
