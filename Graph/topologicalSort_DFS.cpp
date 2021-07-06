@@ -6,7 +6,7 @@ vector <int> toposort( int N, vector <int> adj[])
   {
     if(vis[i] == 0)
     {
-      DFStopo(i, vis, adj);
+      DFStopo(i, vis, st, adj);
     }
   }
   
