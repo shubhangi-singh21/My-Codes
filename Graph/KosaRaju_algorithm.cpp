@@ -1,4 +1,4 @@
-//To find strongly connected components in a graph
+//To find strongly connected components (there is a path between all pairs of vertices) in a graph
 
 #include<bits/stdc++.h>
 using namespace std;
