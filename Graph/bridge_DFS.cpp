@@ -43,14 +43,13 @@ int main()
         {
           dfs( it, node, vis, Tin, low, timer, adj, articulation);
           low[node[ = min( low[node], low[it]);
-                   if( low[it] > Tin[node])
-                   cout << node << "" << it << endl;
-                   }
-                   
-                   else
-                   {
-                     low[node] = min)( low[node], Tin[it]);
-                   }
+          if( low[it] > Tin[node])
+            cout << node << "" << it << endl;
+         }
+           else
+           low[node] = min)( low[node], Tin[it]);
+        }
+     }
                    
                    
 
