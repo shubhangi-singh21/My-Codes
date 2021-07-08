@@ -1,4 +1,4 @@
-void BFS( vector <int> adj[], int N, int src)
+void shortestBFS( vector <int> adj[], int N, int src)
 {
   int dist[N];
   for( i = 0; i < N; i ++)
@@ -8,7 +8,7 @@ void BFS( vector <int> adj[], int N, int src)
     dist[ src] = 0;
     q.push(src);
   
-  while( !q.empty())
+  while( !q.empty()) // while( q.empty() == false)
   {
     int node = q.front();
     q.pop();
@@ -24,6 +24,6 @@ void BFS( vector <int> adj[], int N, int src)
   
   for( i = 0; i < N; i ++)
   {
-    cou << dist[i] << "";
+    cout << dist[i] << " ";
   }
 }
