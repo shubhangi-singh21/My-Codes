@@ -16,10 +16,9 @@ int main()
   cin >> source;
   
   Priority_queue <pair<int, int>, vector <pair<int, int>>, greater <pair<int, int>> pq;
-  
-  //
-  //
-  //
+    vector <int> dist( V, INF);
+    pq.push( make_pair(0, source));
+    dist[source] = 0;
   
   while( !pq.empty())
   {
