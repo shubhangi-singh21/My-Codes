@@ -28,12 +28,12 @@ int main()
     vector <pair<int, int> :: iterator it;
     for( it = g[prev].begin(); it != g[prev].end(); it ++)
     {
-      int nextdist = it->first;
-      int next = it->second; 
-      if( dist[nextdist] > dist[prev] + next)
+      int v = it->first;
+      int weight = it->second; 
+      if( dist[v] > dist[prev] + weight)
       {
-        dist[nextdist] = dist[prev] + next;
-        pq.push( make_pair( dist[nextdist], nextdist));
+        dist[v] = dist[prev] + weight;
+        pq.push( make_pair( dist[v], v));
       }
     }
     
