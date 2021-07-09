@@ -1,3 +1,5 @@
+//Dijkstra's Algorithm: to find shortest paths from source to all vertices in the given graph.
+
 int main()
 {
   int n, m;
