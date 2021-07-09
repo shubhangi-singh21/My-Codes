@@ -25,15 +25,15 @@ int main()
     int distance = pq.top().first;
     int prev = pq.top().second;
     pq.pop();
-    vector <pai<int, int> :: iterator it;
+    vector <pair<int, int> :: iterator it;
     for( it = g[prev].begin(); it != g[prev].end(); it ++)
     {
       int nextdist = it->first;
-      int next = it->second;
-      if( dist[next] > dist[prev] + nextdist)
+      int next = it->second; 
+      if( dist[nextdist] > dist[prev] + next)
       {
-        dist[next] = dist[prev] + nextdist;
-        pq.push( make_pair( dist[next], next));
+        dist[nextdist] = dist[prev] + next;
+        pq.push( make_pair( dist[nextdist], nextdist));
       }
     }
     
