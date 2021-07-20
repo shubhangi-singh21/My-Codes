@@ -4,7 +4,7 @@ bool isSubsetSum( int set[], int n, int sum)
   for( i = 0; i <= n; i ++)
     dp[i][0] = true;
   for( i = 1; i <= sum; i ++)
-    subset[0][i] = false;
+    dp[0][i] = false;
   for( int i = 1; i <= n; i ++)
   {
     for( j = 1; j <= sum; j ++)
@@ -17,4 +17,5 @@ bool isSubsetSum( int set[], int n, int sum)
       }
     }
   }
+  return dp[n][sum];
 }
