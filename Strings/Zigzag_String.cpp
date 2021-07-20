@@ -13,55 +13,39 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR"
 Time complexity: O(len), Space complexity: O(len)*/
 
 
-string Solution::convert(string A, int B) {
-     if (B == 1 || B >= A.length()) //edge cases
-          return A;
+Solution diagram:
+/*n=numRows
+Δ=2n-2    1                           2n-1                         4n-3
+Δ=        2                     2n-2  2n                    4n-4   4n-2
+Δ=        3               2n-3        2n+1              4n-5       .
+Δ=        .           .               .               .            .
+Δ=        .       n+2                 .           3n               .
+Δ=        n-1 n+1                     3n-3    3n-1                 5n-5
+Δ=2n-2    n                           3n-2                         5n-4
+*/
 
-        vector<string> rows(min(B, int(A.size())));
-        int curRow = 0;
-        bool goingDown = false;
 
-        for (char c : A) {
-            rows[curRow] += c;
-            if (curRow == 0 || curRow == B - 1) goingDown = !goingDown;
-            curRow += goingDown ? 1 : -1;
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        vector<string> v(numRows, "");
+        int i =0;
+        int n = s.length();
+        while(i<n){
+            
+            for(int j =0; j<numRows && i<n; j++ ){
+                v[j].push_back(s[i++]);
+            }
+            
+            for(int j =numRows-2; j>=1 && i<n; j--){
+                v[j].push_back(s[i++]);
+            }
         }
-
-        string ret;
-        for (string row : rows) ret += row;
-        return ret;
-}
-
-
-//Alternate Solution
-
-string Solution::convert(string a, int b) {
-    if(b==1 || b >= a.length())
-         return a;
-    vector<string> res(b);
-    int i = 0, j = 0 ;
-    
-    // boolean variable to check if i am moving forward for the lines (res);
-    bool forward = true; // initially it is true;
-    
-    while(i<a.length()){
-        res[j] +=  a[i++];
         
-        // if moving forward then make it false once we reach the end.
-        if(forward) 
-             forward = !(j==b-1);
-        
-        // if moving backward (i.e, forward is false), then make it true once we reach in the front.
-        else 
-             forward = j==0;
-        
-        if(forward)
-             j++;
-        else j--;
+        string res ="";
+        for(auto i : v){
+            res+=i;
+        }
+        return res;
     }
-    
-    string ans = "";
-    for(auto x: res)
-         ans += x; // append strings line by line.
-    return ans;
-}
+};
