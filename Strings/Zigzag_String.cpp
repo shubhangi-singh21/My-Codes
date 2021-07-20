@@ -14,7 +14,7 @@ Time complexity: O(len), Space complexity: O(len)*/
 
 
 string Solution::convert(string A, int B) {
-     if (B == 1 || B >= A.size()) //edge cases
+     if (B == 1 || B >= A.length()) //edge cases
           return A;
 
         vector<string> rows(min(B, int(A.size())));
@@ -36,7 +36,7 @@ string Solution::convert(string A, int B) {
 //Alternate Solution
 
 string Solution::convert(string a, int b) {
-    if(b==1 || b >= a.size())
+    if(b==1 || b >= a.length())
          return a;
     vector<string> res(b);
     int i = 0, j = 0 ;
