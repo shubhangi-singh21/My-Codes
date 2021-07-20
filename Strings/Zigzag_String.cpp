@@ -36,27 +36,32 @@ string Solution::convert(string A, int B) {
 //Alternate Solution
 
 string Solution::convert(string a, int b) {
-    if(b==1)return a;
+    if(b==1 || b >= a.size())
+         return a;
     vector<string> res(b);
     int i = 0, j = 0 ;
     
-    // boolea variable to check if i am moving forward for the lines (res);
+    // boolean variable to check if i am moving forward for the lines (res);
     bool forward = true; // initially it is true;
     
     while(i<a.length()){
         res[j] +=  a[i++];
         
         // if moving forward then make it false once we reach the end.
-        if(forward) forward = !(j==b-1);
+        if(forward) 
+             forward = !(j==b-1);
         
         // if moving backward (i.e, forward is false), then make it true once we reach in the front.
-        else forward = j==0;
+        else 
+             forward = j==0;
         
-        if(forward)j++;
+        if(forward)
+             j++;
         else j--;
     }
     
     string ans = "";
-    for(auto x: res)ans += x; // append strings line by line.
+    for(auto x: res)
+         ans += x; // append strings line by line.
     return ans;
 }
