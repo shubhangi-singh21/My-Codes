@@ -17,7 +17,8 @@ bool check(string str)
 
 	// If there is single digit
 	if (n == 1)
-		return ((str[0]-'0')%8 == 0);
+		return ((str[0]-'0')%8 == 0); // str[0]='0'converts a char to an integer by subtracting the ASCII value (48) of 0 from the char. All this is assuming that the character is between chars 0 and 9 inclusive.
+
 
 	// If there is double digit
 	if (n == 2)
