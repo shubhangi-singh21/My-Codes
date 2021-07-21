@@ -48,3 +48,7 @@ int main()
 	solve(n);
 	return 0;
 }
+
+
+//Time Complexity: O(logN)
+//Auxiliary Space: O(1)
